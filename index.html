@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>🍽️ Smart Restaurant</h1>
+        <p>Fresh food, smart ordering!</p>
+        <div class="cart-badge">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome to Our Restaurant!</h2>
+            <p>Select your table and order food.</p>
+
+            <label for="table-number">Select Table:</label>
+            <select id="table-number">
+                <option value="">Choose Table</option>
+                <option value="1">Table 1</option>
+                <option value="2">Table 2</option>
+                <option value="3">Table 3</option>
+                <option value="4">Table 4</option>
+            </select>
+        </section>
+
+        <h2 class="section-title">Our Menu</h2>
+        <section id="menu-list" class="menu-grid"></section>
+
+        <section class="cart-section">
+            <h2>🛒 Your Order</h2>
+            <div id="cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+
+            <h2 class="total">
+                Total: ₹<span id="total-price">0</span>
+            </h2>
+
+            <button id="place-order">Place Order</button>
+            <p id="order-message" role="status"></p>
+        </section>
+    </main>
+
+    <footer>
+        Smart Restaurant | Happy Dining!
+    </footer>
+
+</body>
+</html>
