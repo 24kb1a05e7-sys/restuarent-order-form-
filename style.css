@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FFF8EE;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background: #7B241C;
+    color: white;
+    padding: 25px 7%;
+}
+
+header h1 {
+    color: #FFD166;
+}
+
+.cart-badge {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 15px;
+    background: #FFD166;
+    color: #5B2018;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.welcome,
+.cart-section {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+h2 {
+    color: #7B241C;
+}
+
+.welcome p {
+    margin: 5px 0 12px;
+}
+
+label {
+    display: block;
+    color: #7B241C;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #E67E22;
+    border-radius: 6px;
+    background: #FFF8EE;
+    color: #333333;
+}
+
+.section-title {
+    margin: 25px 0 15px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.food-card {
+    background: white;
+    border: 1px solid #F0D7C2;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+}
+
+.food-image {
+    background: #FFE5B4;
+    border-radius: 8px;
+    font-size: 55px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.food-card h3 {
+    color: #7B241C;
+}
+
+.price {
+    color: #218838;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+button {
+    background: #E67E22;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.add-btn {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.cart-section {
+    margin-top: 30px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #F0D7C2;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity-controls button {
+    background: #FCE4D6;
+    color: #7B241C;
+    padding: 4px 10px;
+    font-size: 18px;
+}
+
+.total {
+    color: #218838;
+    text-align: right;
+    margin: 20px 0;
+}
+
+#place-order {
+    background: #218838;
+    width: 100%;
+    padding: 14px;
+    font-weight: bold;
+}
+
+#order-message {
+    color: #17692A;
+    margin-top: 12px;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    background: #4A1712;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 35px;
+}
+
+@media (max-width: 500px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    .cart-item {
+        flex-wrap: wrap;
+    }
+}
