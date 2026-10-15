@@ -1,8 +1,37 @@
 const menu = [
+    // Burgers and fast food
     { id: 1, name: "Veg Burger", price: 99, emoji: "🍔" },
-    { id: 2, name: "Pizza", price: 199, emoji: "🍕" },
-    { id: 3, name: "Biryani", price: 159, emoji: "🍛" },
-    { id: 4, name: "French Fries", price: 79, emoji: "🍟" }
+    { id: 2, name: "Chicken Burger", price: 149, emoji: "🍔" },
+    { id: 3, name: "Pizza", price: 199, emoji: "🍕" },
+    { id: 4, name: "French Fries", price: 79, emoji: "🍟" },
+    { id: 5, name: "Sandwich", price: 89, emoji: "🥪" },
+    { id: 6, name: "Chicken Nuggets", price: 129, emoji: "🍗" },
+
+    // Indian food
+    { id: 7, name: "Veg Biryani", price: 159, emoji: "🍛" },
+    { id: 8, name: "Chicken Biryani", price: 219, emoji: "🍗" },
+    { id: 9, name: "Masala Dosa", price: 80, emoji: "🥞" },
+    { id: 10, name: "Idli Sambar", price: 60, emoji: "🥘" },
+    { id: 11, name: "Paneer Butter Masala", price: 189, emoji: "🍲" },
+    { id: 12, name: "Butter Naan", price: 40, emoji: "🫓" },
+    { id: 13, name: "Veg Fried Rice", price: 139, emoji: "🍚" },
+    { id: 14, name: "Chicken Fried Rice", price: 179, emoji: "🍚" },
+
+    // Italian food
+    { id: 15, name: "White Sauce Pasta", price: 149, emoji: "🍝" },
+    { id: 16, name: "Red Sauce Pasta", price: 139, emoji: "🍝" },
+    { id: 17, name: "Garlic Bread", price: 99, emoji: "🥖" },
+
+    // Drinks
+    { id: 18, name: "Cold Coffee", price: 69, emoji: "☕" },
+    { id: 19, name: "Fresh Orange Juice", price: 49, emoji: "🧃" },
+    { id: 20, name: "Mango Milkshake", price: 89, emoji: "🥭" },
+    { id: 21, name: "Lemon Soda", price: 39, emoji: "🥤" },
+
+    // Desserts
+    { id: 22, name: "Vanilla Ice Cream", price: 59, emoji: "🍨" },
+    { id: 23, name: "Chocolate Cake", price: 99, emoji: "🍰" },
+    { id: 24, name: "Gulab Jamun", price: 50, emoji: "🍮" }
 ];
 
 let cart = [];
